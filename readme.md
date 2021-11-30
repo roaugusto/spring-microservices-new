@@ -1,4 +1,4 @@
-# Microserviços, Spring Boot 2.5.7 e Spring Cloud 2020.0.4 
+# Microserviços, Spring Boot 2.5.7 e Spring Cloud 2020.0.4
 
 Implementation of Microservices using Spring Boot 2.5.7 and Spring Cloud 2020.0.4
 This project was entirely based on Piotr's project (https://github.com/piomin/sample-spring-microservices-new) and updated to use the latest libraries.
@@ -21,4 +21,4 @@ This sample microservices-based system consists of the following modules:
 
 The following picture illustrates the architecture described above.
 
-
+![Architecture](https://github.com/roaugusto/spring-microservices-new/blob/master/assets/img/architecture.png)
