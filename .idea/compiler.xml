@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-service" />
+        <module name="department-service" />
+        <module name="gateway-service" />
+        <module name="organization-service" />
+        <module name="discovery-service" />
+        <module name="admin-service" />
+        <module name="employee-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-service" target="1.8" />
+      <module name="config-service" target="1.8" />
+      <module name="department-service" target="1.8" />
+      <module name="discovery-service" target="1.8" />
+      <module name="employee-service" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="organization-service" target="1.8" />
+      <module name="spring-microservices" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="department-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="employee-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="organization-service" options="-parameters" />
+    </option>
+  </component>
+</project>
